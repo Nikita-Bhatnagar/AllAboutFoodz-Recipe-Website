@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>All about Foodz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="navbar">
+          <div class="brand-name">
+            <img src="images/logo.jpg" alt="" class="logo-heading" /> All
+            <span>About</span> Foodz
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="menu-items">
+            <div class="menu-item"><a href="#Home">Home</a></div>
+            <div class="menu-item">
+              <a href="#bookmarks">My Collection</a>
+            </div>
+            <div class="menu-item"><a href="#contact">Contact Us</a></div>
+          </div>
+        </div>
+        <div class="main-header-section">
+          <div class="row">
+            <div class="col-1">
+              <h1>Always Tasty Recipes</h1>
+              <p>Want to learn to cook but confused how to start?</p>
+              <p>No need to worry...We are here at your service!!!</p>
+              <a href="#search"
+                ><button class="scrollToSearch" type="button">
+                  Search Recipes
+                </button></a
+              >
+            </div>
+            <div class="col-2">
+              <img
+                src="images/foodimage.jpg"
+                alt="food-image"
+                class="header-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="recommended">
+        <h2>Recommended for you</h2>
+        <p>
+          We provide a variety of food and beverages recipes with high taste
+          from famous chefs. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Aliquam placeat voluptates deserunt.
+        </p>
+        <div class="recommended-row">
+          <div>
+            <img src="images/pasta.jpg" alt="" class="food-images" />
+            <p class="food-name name-hidden">pasta</p>
+          </div>
+
+          <div>
+            <img src="images/ice-cream.jpg" alt="" class="food-images" />
+            <p class="food-name name-hidden">ice cream</p>
+          </div>
+          <div>
+            <img src="images/pizza.jpg" alt="" class="food-images" />
+            <p class="food-name name-hidden">pizza</p>
+          </div>
+          <div>
+            <img src="images/donuts.jpg" alt="" class="food-images" />
+            <p class="food-name name-hidden">donuts</p>
+          </div>
+          <div>
+            <img src="images/sea-food.jpg" alt="" class="food-images" />
+            <p class="food-name name-hidden">sea food</p>
+          </div>
+          <div>
+            <img src="images/cake.jpg" alt="" class="food-images" />
+            <p class="food-name name-hidden">cake</p>
+          </div>
+        </div>
+      </section>
+      <section class="search" id="search">
+        <div class="search-row">
+          <input
+            type="search"
+            class="search-input"
+            placeholder="Search for recipes..."
+          />
+          <button type="button" class="search-btn">Search</button>
+        </div>
+        <div class="err-msg">
+          No recpies found for your query!!!<br />
+          Try another search term...
+        </div>
+        <div class="results"></div>
+      </section>
+
+      <section class="bookmarks-section">
+        <h2>My Collection</h2>
+        <div class="bookmarks"></div>
+      </section>
+      <section class="newsletter">
+        <div class="wrapper">
+          <h3>Stay up to date on what's new.</h3>
+          <div class="input-row">
+            <input
+              type="email"
+              class="email"
+              placeholder="Enter your email id"
+            />
+            <button class="submit" type="button">Submit</button>
+          </div>
+        </div>
+      </section>
+      <section class="contact-us" id="contact">
+        <div class="contact-row">
+          <div class="column-1">
+            <img src="images/logo.jpg" alt="logo" />
+            <h4>All <span>About</span> Foodz</h4>
+            <p>Sector 123, Street ABC, XYZ City, 1234XXX</p>
+            <div class="icon-row">
+              <div><i class="fab fa-facebook-f"></i></div>
+              <div class="insta-icon"><i class="fab fa-instagram"></i></div>
+              <div><i class="fab fa-twitter"></i></div>
+            </div>
+          </div>
+          <div class="column-2">
+            <p class="col-heading">Company</p>
+            <p>About us</p>
+            <p>Certification</p>
+            <p>How it Works</p>
+            <p>Lorem ipsum</p>
+          </div>
+          <div class="column-3">
+            <p class="col-heading">Policy</p>
+            <p>FAQ</p>
+            <p>Conatct</p>
+            <p>Shipping</p>
+            <p>Privacy</p>
+          </div>
+          <div class="column-4">
+            <p class="col-heading">Get in touch</p>
+            <p>+91 23456 78900</p>
+            <p>abc@allaboutfoodz.com</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
